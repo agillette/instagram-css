@@ -1,0 +1,51 @@
+.amaro {
+    position: relative;
+    display: inline-block;
+}
+
+.amaro img {
+    filter: contrast(1.12) brightness(130%) saturate(80%);
+    -webkit-filter: contrast(1.12) brightness(130%) saturate(80%);
+    -moz-filter: contrast(1.12) brightness(130%) saturate(80%);
+}
+
+.amaro:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(254,247,217,0.37);
+    z-index: 9;
+    -webkit-box-shadow: inset 0px 0px 100px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: inset 0px 0px 100px 0px rgba(0,0,0,0.6);
+    box-shadow: inset 0px 0px 100px 0px rgba(0,0,0,0.6);
+}
+
+.brennan {
+    position: relative;
+    display: inline-block;
+}
+
+.brennan img {
+    filter: contrast(2) brightness(130%) saturate(60%);
+    -webkit-filter: contrast(2) brightness(130%) saturate(60%);
+    -moz-filter: contrast(2) brightness(130%) saturate(60%);
+}
+
+.brennan:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(237,221,158,0.48);
+    z-index: 9;
+    -webkit-box-shadow: inset 0px 0px 60px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: inset 0px 0px 60px 0px rgba(0,0,0,0.4);
+    box-shadow: inset 0px 0px 60px 0px rgba(0,0,0,0.4);
+}
